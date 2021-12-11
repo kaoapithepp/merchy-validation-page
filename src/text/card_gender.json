@@ -1,0 +1,20 @@
+[
+    {
+        "header": "Male",
+        "paragraph": "Hi there gentlement!",
+        "style" : "button-style blue-navi",
+        "img" : "/icon/boy.png"
+    },
+    {
+        "header": "Female",
+        "paragraph": "Bonjour, madame!",
+        "style" : "button-style yellow-pink",
+        "img" : "/icon/woman.png"
+    },
+    {
+        "header": "LGBTQ+",
+        "paragraph": "Let’s rock the world! #pride",
+        "style" : "button-style lgbtq",
+        "img" : "/icon/pride.png"
+    }
+]

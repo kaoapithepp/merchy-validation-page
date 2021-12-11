@@ -1,0 +1,14 @@
+[
+    {
+        "header": "I'm in!",
+        "paragraph": "I want to make the world better by starting from here!",
+        "style" : "button-style red-purple",
+        "img" : "/icon/rocket.png"
+    },
+    {
+        "header": "For marts!",
+        "paragraph": "I am a shop owner and want to participate too!",
+        "style" : "button-style orange-yellow",
+        "img" : "/icon/hamburger.png"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "header": "At restaurant",
+        "paragraph": "I prefer restaurant vibes.",
+        "style" : "button-style blue-purple"
+    },
+    {
+        "header": "Female",
+        "paragraph": "I prefer ordering from delivery app.",
+        "style" : "button-style yellow-green"
+    }
+]
