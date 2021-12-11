@@ -1,4 +1,4 @@
-const prefer = () => {
+const Contact = () => {
     return (
         <div>
 
@@ -6,4 +6,4 @@ const prefer = () => {
     );
 }
 
-export default prefer;
+export default Contact;

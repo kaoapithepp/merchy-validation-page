@@ -24,7 +24,6 @@ const Home = () => {
                 <div className="interact-section">
                     {button_card}
                 </div>
-                
             </div>
         </div>
     );

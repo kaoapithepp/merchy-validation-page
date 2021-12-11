@@ -29,9 +29,22 @@ h4 {
 p {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 10px;
   color: #3A3A3A;
-  margin: 0px;
+  margin: 5px 0px;
+}
+
+button {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 14px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(30deg, rgba(255,0,110,1) 0%, rgba(131,56,236,1) 100%);
+  cursor: pointer;
 }
 
 .emoji {
