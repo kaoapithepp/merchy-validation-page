@@ -1,7 +1,7 @@
 [
     {
         "header": "Male",
-        "paragraph": "Hi there gentlement!",
+        "paragraph": "Hi there, gentlement!",
         "style" : "button-style blue-navi",
         "img" : "/icon/boy.png"
     },

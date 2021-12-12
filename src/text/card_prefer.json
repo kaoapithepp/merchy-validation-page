@@ -5,7 +5,7 @@
         "style" : "button-style blue-purple"
     },
     {
-        "header": "Female",
+        "header": "Delivery",
         "paragraph": "I prefer ordering from delivery app.",
         "style" : "button-style yellow-green"
     }
