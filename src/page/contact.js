@@ -13,6 +13,8 @@ const Contact = () => {
     const [age, setAge] = useState('');
     const [postCode, setPostCode] = useState('');
     const [cityCountry, setcityCountry] = useState('');
+    const [isDisabled, setIsDisabled] = useState(true)
+
 
     function handleSubmit() {        
         user_entity['fullName'] = fullName;
@@ -23,6 +25,18 @@ const Contact = () => {
         
         console.log(user_entity);
     }
+
+    function buttonValidation() {
+        if (fullName &&
+            email &&
+            age &&
+            postCode &&
+            cityCountry != ''){
+                setIsDisabled(false);
+        }
+    }
+
+
 
     return (
         <div className="page-align">
@@ -36,7 +50,7 @@ const Contact = () => {
                     </p>
                 </div>
                 <div className="interact-section">
-                    <form>
+                    <form onChange={buttonValidation}>
                         <div className="form-elem">
                             <h5>Full Name</h5>
                             <input type="text" placeholder="Your name here" value={fullName} onChange={e => { setFullName(e.target.value) }} />
@@ -60,7 +74,7 @@ const Contact = () => {
                             <input type="text" placeholder="ex. Chiang Mai, Thailand หรือ เชียงใหม่, ประเทศไทย" value={cityCountry} onChange={e => { setcityCountry(e.target.value) }}/>
                         </div>
                         <Link to="/gender" style={{textDecoration: 'inherit', color: 'inherit'}}>
-                            <button onClick={handleSubmit}>Let's go!</button>
+                            <button disabled={isDisabled} onClick={handleSubmit}>Let's go!</button>
                         </Link>
                     </form>
                 </div>
