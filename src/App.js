@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './page/Home';
+import Contact from './page/Contact';
 import Gender from './page/Gender';
 import Prefer from './page/Prefer';
 import Completed from './page/Completed';
@@ -13,6 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/gender" element={<Gender />} />
         <Route exact path="/prefer" element={<Prefer />} />
         <Route exact path="/completed" element={<Completed />} />

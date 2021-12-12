@@ -1,15 +1,13 @@
 var user_entity = {
+    accType : '',
     fullName : '',
     email : '',
     age : 0,
     gender : '',
-    accType : '',
-    postcode : '',
+    postCode : '',
     cityCountry : '',
-    answer : {
-        eating : '',
-        isLike : ''
-    }
+    eating : '',
+    isLike : ''
 }
 
 export default user_entity;

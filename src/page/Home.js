@@ -3,7 +3,7 @@ import ButtonCard from "../components/ButtonCard";
 
 import card_home from "../text/card_home.json";
 
-import './page-style.css'
+import './page-style.css';
 
 const Home = () => {
 
