@@ -98,9 +98,6 @@ button {
   border-radius: 20px;
   background: linear-gradient(30deg, rgba(255,0,110,1) 0%, rgba(131,56,236,1) 100%);
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transition: .2s;
 }
 
@@ -124,7 +121,13 @@ button:enabled {
   height: 12px;
 }
 
+
+/* iPad Pro */
 @media only screen and (min-width: 1024px){
+  p {
+    font-size: 14px;
+  }
+  
   form {
     width: auto;
   }
@@ -136,4 +139,26 @@ button:enabled {
   button:hover {
     transform: scale(1.1);
   }
+
+}
+
+/* iPad */
+@media only screen and (min-width: 768px){
+  p {
+    font-size: 14px;
+  }
+  
+  form {
+    width: auto;
+  }
+  
+  input {
+    font-size: 14px;
+    width: 80%;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
 }
