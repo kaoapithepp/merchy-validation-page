@@ -1,0 +1,20 @@
+[
+    {
+        "header": "I'm in!",
+        "paragraph": "I want to make the world better by starting from here!",
+        "attrib" : "accType",
+        "payload" : "user",
+        "style" : "button-style red-purple",
+        "img" : "/icon/rocket.png",
+        "path": "/contact"
+    },
+    {
+        "header": "For marts!",
+        "paragraph": "I am a shop owner and want to participate too!",
+        "attrib" : "accType",
+        "payload" : "shop_owner",
+        "style" : "button-style orange-yellow",
+        "img" : "/icon/hamburger.png",
+        "path": "/contact"
+    }
+]

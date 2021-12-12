@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Home from './page/Home';
+import Contact from './page/Contact';
+import Gender from './page/Gender';
+import Prefer from './page/Prefer';
+import Completed from './page/Completed';
+import Claimed from './page/Claimed';
+import Error from './page/Error';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/gender" element={<Gender />} />
+        <Route exact path="/prefer" element={<Prefer />} />
+        <Route exact path="/completed" element={<Completed />} />
+        <Route exact path="/claimed" element={<Claimed />} />
+        <Route path="/*" element={<Error />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

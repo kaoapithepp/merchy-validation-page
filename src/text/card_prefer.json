@@ -1,0 +1,18 @@
+[
+    {
+        "header": "At restaurant",
+        "paragraph": "I prefer restaurant vibes.",
+        "style" : "button-style blue-purple",
+        "attrib" : "eating",
+        "payload" : "on-site",
+        "path" : "/completed"
+    },
+    {
+        "header": "Delivery",
+        "paragraph": "I prefer ordering from delivery app.",
+        "style" : "button-style yellow-green",
+        "attrib" : "eating",
+        "payload" : "delivery",
+        "path" : "/completed"
+    }
+]

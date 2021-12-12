@@ -1,0 +1,29 @@
+[
+    {
+        "header": "Male",
+        "paragraph": "Hi there, gentlement!",
+        "style" : "button-style blue-navi",
+        "img" : "/icon/boy.png",
+        "attrib" : "gender",
+        "payload" : "male",
+        "path" : "/prefer"
+    },
+    {
+        "header": "Female",
+        "paragraph": "Bonjour, madame!",
+        "style" : "button-style yellow-pink",
+        "img" : "/icon/woman.png",
+        "attrib" : "gender",
+        "payload" : "female",
+        "path" : "/prefer"
+    },
+    {
+        "header": "LGBTQ+",
+        "paragraph": "Let’s rock the world! #pride",
+        "style" : "button-style lgbtq",
+        "img" : "/icon/pride.png",
+        "attrib" : "gender",
+        "payload" : "LGBTQ+",
+        "path" : "/prefer"
+    }
+]

@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+body {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  font-family: 'Quicksand', 'Mitr', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0px;
+}
+
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0px;
+}
+
+h5 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0px 5px;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #3A3A3A;
+  margin: 5px 0px;
+}
+
+form {
+  width: 65vw;
+}
+
+input {
+  font-family: 'Quicksand', 'Mitr', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: #3A3A3A;
+  padding: 10px 12px;
+  margin: 5px 0px;
+  width: 100%;
+  outline: none;
+
+  border: none;
+  border-radius: 100px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+}
+
+input:focus {
+  outline: 1px solid rgba(131,56,236,1);
+}
+
+input::placeholder {
+  color: #C4C4C4;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
   color: white;
+  font-size: 14px;
+  margin: 10px 0px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(30deg, rgba(255,0,110,1) 0%, rgba(131,56,236,1) 100%);
+  cursor: pointer;
+  transition: .2s;
 }
 
-.App-link {
-  color: #61dafb;
+button:disabled {
+  opacity: 0.4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+button:enabled {
+  opacity: 1;
+}
+
+.emoji {
+  height: 30px;
+}
+
+.h-emoji {
+  height: 20px;
+}
+
+.p-emoji {
+  height: 12px;
+}
+
+
+/* iPad Pro */
+@media only screen and (min-width: 1024px){
+  p {
+    font-size: 14px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  form {
+    width: auto;
   }
+  
+  input {
+    font-size: 14px;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+}
+
+/* iPad */
+@media only screen and (min-width: 768px){
+  p {
+    font-size: 14px;
+  }
+  
+  form {
+    width: auto;
+  }
+  
+  input {
+    font-size: 14px;
+    width: 80%;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
 }
