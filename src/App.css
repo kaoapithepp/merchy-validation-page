@@ -36,7 +36,7 @@ h4 {
 h5 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
   margin: 0px;
 }
 
@@ -73,6 +73,18 @@ input:focus {
 
 input::placeholder {
   color: #C4C4C4;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 button {

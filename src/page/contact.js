@@ -60,13 +60,15 @@ const Contact = () => {
                             <input type="email" placeholder="example@example.com" value={email} onChange={e => { setEmail(e.target.value) }}/>
                         </div>
                         <div className="form-elem">
-                            <div className="inline-block">
-                                <h5>Age</h5>
-                                <input type="number" placeholder="number only" value={age} onChange={e => { setAge(e.target.value) }}/>
-                            </div>
-                            <div className="inline-block">
-                                <h5>Postcode</h5>
-                                <input type="text" placeholder="ex. 50200" value={postCode} onChange={e => { setPostCode(e.target.value) }}/>
+                            <div className="helper">
+                                <div className="inline-block">
+                                    <h5>Age</h5>
+                                    <input type="number" placeholder="number only" value={age} onChange={e => { setAge(e.target.value) }}/>
+                                </div>
+                                <div className="inline-block">
+                                    <h5>Postcode</h5>
+                                    <input type="text" placeholder="ex. 50200" value={postCode} onChange={e => { setPostCode(e.target.value) }}/>
+                                </div>
                             </div>
                         </div>
                         <div className="form-elem">
