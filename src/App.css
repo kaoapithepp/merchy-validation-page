@@ -37,7 +37,7 @@ h5 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   font-size: 14px;
-  margin: 0px;
+  margin: 0px 5px;
 }
 
 p {
@@ -63,8 +63,8 @@ input {
   outline: none;
 
   border: none;
-  border-radius: 20px;
-  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+  border-radius: 100px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
 }
 
 input:focus {
@@ -101,6 +101,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: .2s;
 }
 
 button:disabled {
@@ -121,4 +122,18 @@ button:enabled {
 
 .p-emoji {
   height: 12px;
+}
+
+@media only screen and (min-width: 1024px){
+  form {
+    width: auto;
+  }
+  
+  input {
+    font-size: 14px;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
 }
