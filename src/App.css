@@ -6,6 +6,8 @@ body {
   -moz-user-select: none;    
   -ms-user-select: none;      
   user-select: none;
+  height: 100vh;
+  background-color: white;
 }
 
 .app {
@@ -62,13 +64,15 @@ input {
   width: 100%;
   outline: none;
 
-  border: none;
+  border: 1px solid #3a3a3a2a;
   border-radius: 100px;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+
+  -webkit-appearance: none;
 }
 
 input:focus {
-  outline: 1px solid rgba(131,56,236,1);
+  border: 1px solid rgba(131,56,236,1);
 }
 
 input::placeholder {

@@ -72,7 +72,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="form-elem">
-                            <h5>City & Country</h5>
+                            <h5>City/State & Country</h5>
                             <input type="text" placeholder="ex. Chiang Mai, Thailand หรือ เชียงใหม่, ประเทศไทย" value={cityCountry} onChange={e => { setcityCountry(e.target.value) }}/>
                         </div>
                         <Link to="/gender" style={{textDecoration: 'inherit', color: 'inherit'}}>
