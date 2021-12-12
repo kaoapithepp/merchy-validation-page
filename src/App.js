@@ -6,6 +6,7 @@ import Gender from './page/Gender';
 import Prefer from './page/Prefer';
 import Completed from './page/Completed';
 import Claimed from './page/Claimed';
+import Error from './page/Error';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/prefer" element={<Prefer />} />
         <Route exact path="/completed" element={<Completed />} />
         <Route exact path="/claimed" element={<Claimed />} />
+        <Route path="/*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   );

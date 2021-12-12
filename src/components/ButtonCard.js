@@ -10,7 +10,7 @@ const ButtonCard = ({ detail }) => {
 
     function updateEntity(attrib, payload){
         user_entity[attrib] = payload;
-        console.log(user_entity);
+        // console.log(user_entity);
     }
 
     return (

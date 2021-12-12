@@ -103,6 +103,10 @@ button:enabled {
   height: 30px;
 }
 
+.h-emoji {
+  height: 20px;
+}
+
 .p-emoji {
   height: 12px;
 }

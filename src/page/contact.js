@@ -23,7 +23,7 @@ const Contact = () => {
         user_entity['postCode'] = postCode;
         user_entity['cityCountry'] = cityCountry;
         
-        console.log(user_entity);
+        // console.log(user_entity);
     }
 
     function buttonValidation() {
